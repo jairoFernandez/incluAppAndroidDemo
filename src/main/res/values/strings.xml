@@ -8,11 +8,19 @@
     <string name="title_section4">Opciones</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="action_example">Example action</string>
+    <string name="action_example">Actualizar</string>
     <string name="action_settings">Acerca de</string>
-    <string name="title_activity_perfil">PerfilActivity</string>
+    <string name="title_activity_perfil">Mi Perfil</string>
     <string name="hello_world">Hello world!</string>
-    <string name="title_activity_experiencias">ExperienciasActivity</string>
-    <string name="title_activity_opciones">OpcionesActivity</string>
+    <string name="title_activity_experiencias">Mis Experiencias</string>
+    <string name="title_activity_opciones">Opciones</string>
+    <string name="titulo_inicio">IncluApp</string>
+    <string name="btnLoad">Cargar</string>
+    <string name="perfilImage">perfil</string>
+    <string name="titulo_perfil">Mi perfil</string>
+    <string name="textoPrueba">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mollis magna nec aliquam semper. In eleifend tortor leo, at efficitur velit tempor vel. Proin condimentum, urna vestibulum auctor placerat, tellus lorem congue ipsum, a tempor sapien elit et arcu. Suspendisse potenti. Ut at erat et elit fringilla ultrices ut eget purus. Morbi porta placerat ante sed feugiat. Donec commodo felis at ex pharetra ullamcorper. Etiam a rhoncus lorem, in ullamcorper est. Nunc semper libero at viverra ornare. Aenean eget erat sagittis, volutpat lorem nec, commodo sapien. Duis faucibus ullamcorper consectetur. Sed ligula sapien, ultrices non libero quis, congue facilisis eros</string>
+    <string name="notificacionesOption">Activar Notificaciones</string>
+    <string name="deshabilitar">Busquedas</string>
+    <string name="detalleBasico">\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mollis magna nec aliquam semper. In eleifend tortor leo, at efficitur velit tempor vel...\"</string>
 
 </resources>

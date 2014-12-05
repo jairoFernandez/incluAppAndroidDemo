@@ -6,6 +6,7 @@
     <string name="title_section2">Perfil</string>
     <string name="title_section3">Mis experiencias</string>
     <string name="title_section4">Opciones</string>
+    <string name="title_section5">Enviar Experiencia</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_example">Actualizar</string>
@@ -22,5 +23,12 @@
     <string name="notificacionesOption">Activar Notificaciones</string>
     <string name="deshabilitar">Busquedas</string>
     <string name="detalleBasico">\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mollis magna nec aliquam semper. In eleifend tortor leo, at efficitur velit tempor vel...\"</string>
+    <string name="title_activity_login">Accesa</string>
+    <string name="logintitul">Inserta tus datos</string>
+    <string name="Entrar">Entrar</string>
+    <string name="experienciasT">Experiencias</string>
+    <string name="title_activity_enviar_experiencia">EnviarExperienciaActivity</string>
+    <string name="enviaexp">Envia tu experiencia</string>
+    <string name="Enviop">Enviar</string>
 
 </resources>

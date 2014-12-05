@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.tucompualdia.app.incluapp" >
+
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -36,6 +38,22 @@
         <activity
             android:name="com.tucompualdia.app.incluapp.OpcionesActivity"
             android:label="@string/title_activity_opciones"
+            android:parentActivityName="com.tucompualdia.app.incluapp.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.tucompualdia.app.incluapp.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.tucompualdia.app.incluapp.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:parentActivityName="com.tucompualdia.app.incluapp.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.tucompualdia.app.incluapp.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.tucompualdia.app.incluapp.EnviarExperienciaActivity"
+            android:label="@string/title_activity_enviar_experiencia"
             android:parentActivityName="com.tucompualdia.app.incluapp.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

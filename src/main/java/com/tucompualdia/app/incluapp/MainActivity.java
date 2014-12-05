@@ -13,6 +13,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebView;
 
 
 public class MainActivity extends Activity
@@ -36,7 +37,9 @@ public class MainActivity extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        WebView entrada = (WebView)findViewById(R.id.navegador);
+        entrada.getSettings().setJavaScriptEnabled(true);
+        entrada.loadUrl("http://154.70.153.108/apporta/incluappDemo/web/app.php/");
 
         mNavigationDrawerFragment = (NavigationDrawerFragment)
                 getFragmentManager().findFragmentById(R.id.navigation_drawer);
@@ -64,7 +67,7 @@ public class MainActivity extends Activity
                 break;
             case 2:
                 mTitle = getString(R.string.title_section2);
-                Intent perfil = new Intent(this,PerfilActivity.class);
+                Intent perfil = new Intent(this,LoginActivity.class);
                 startActivity(perfil);
                 break;
             case 3:
@@ -76,6 +79,11 @@ public class MainActivity extends Activity
                 mTitle = getString(R.string.title_section4);
                 Intent opciones = new Intent(this,OpcionesActivity.class);
                 startActivity(opciones);
+                break;
+            case 5:
+                mTitle = getString(R.string.title_section5);
+                Intent experienciasEnvio = new Intent(this,EnviarExperienciaActivity.class);
+                startActivity(experienciasEnvio);
                 break;
         }
     }

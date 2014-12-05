@@ -23,18 +23,31 @@
                 android:layout_height="wrap_content"
                 android:weightSum="1">
 
+                <Button
+                    android:layout_width="101dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/experienciasT"
+                    android:id="@+id/btnEnvioexo"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/background_dark"
+                    android:layout_weight="0.73" />
+
                 <TextView
                     android:layout_width="105dp"
                     android:layout_height="108dp"
                     android:text="@string/detalleBasico"
                     android:id="@+id/textView3"
-                    android:layout_weight="0.61" />
+                    android:layout_weight="3.02"
+                    android:layout_marginTop="80dp" />
 
                 <ImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="169dp"
                     android:id="@+id/imageView2"
-                    android:src="@drawable/panda" />
+                    android:src="@drawable/panda"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="2.55" />
+
             </LinearLayout>
 
             <LinearLayout

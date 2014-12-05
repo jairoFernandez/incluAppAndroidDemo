@@ -7,16 +7,17 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 
-public class ExperienciasActivity extends Activity implements View.OnClickListener {
+public class LoginActivity extends Activity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_experiencias);
-        Button experiencias = (Button)findViewById(R.id.btnEnvioexo);
-        experiencias.setOnClickListener(this);
+        setContentView(R.layout.activity_login);
+        Button btnEnviar = (Button)findViewById(R.id.btnEnviar);
+        btnEnviar.setOnClickListener(this);
     }
 
 
@@ -44,6 +45,8 @@ public class ExperienciasActivity extends Activity implements View.OnClickListen
 
     @Override
     public void onClick(View view) {
-        Intent i = new Intent(this, EnviarExperienciaActivity.class);
+        Intent i = new Intent(this, PerfilActivity.class);
+        startActivity(i);
+        Toast.makeText(this,"Identificado correctamente",Toast.LENGTH_LONG).show();
     }
 }

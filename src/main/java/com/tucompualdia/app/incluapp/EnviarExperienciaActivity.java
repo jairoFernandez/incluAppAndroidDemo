@@ -1,22 +1,17 @@
 package com.tucompualdia.app.incluapp;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
 
 
-public class ExperienciasActivity extends Activity implements View.OnClickListener {
+public class EnviarExperienciaActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_experiencias);
-        Button experiencias = (Button)findViewById(R.id.btnEnvioexo);
-        experiencias.setOnClickListener(this);
+        setContentView(R.layout.activity_enviar_experiencia);
     }
 
 
@@ -40,10 +35,5 @@ public class ExperienciasActivity extends Activity implements View.OnClickListen
         }
 
         return super.onOptionsItemSelected(item);
-    }
-
-    @Override
-    public void onClick(View view) {
-        Intent i = new Intent(this, EnviarExperienciaActivity.class);
     }
 }

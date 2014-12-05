@@ -12,5 +12,7 @@
     <string name="action_settings">Acerca de</string>
     <string name="title_activity_perfil">PerfilActivity</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_experiencias">ExperienciasActivity</string>
+    <string name="title_activity_opciones">OpcionesActivity</string>
 
 </resources>

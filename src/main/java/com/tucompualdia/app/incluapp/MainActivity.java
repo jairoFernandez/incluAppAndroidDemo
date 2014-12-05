@@ -1,22 +1,17 @@
 package com.tucompualdia.app.incluapp;
 
-import android.app.Activity;
-
 import android.app.ActionBar;
+import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
-import android.content.Context;
-import android.os.Build;
+import android.content.Intent;
 import android.os.Bundle;
-import android.view.Gravity;
+import android.support.v4.widget.DrawerLayout;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.support.v4.widget.DrawerLayout;
-import android.widget.ArrayAdapter;
-import android.widget.TextView;
 
 
 public class MainActivity extends Activity
@@ -63,9 +58,18 @@ public class MainActivity extends Activity
                 break;
             case 2:
                 mTitle = getString(R.string.title_section2);
+                Intent perfil = new Intent(this,PerfilActivity.class);
+                startActivity(perfil);
                 break;
             case 3:
                 mTitle = getString(R.string.title_section3);
+                Intent experiencias = new Intent(this,ExperienciasActivity.class);
+                startActivity(experiencias);
+                break;
+            case 4:
+                mTitle = getString(R.string.title_section4);
+                Intent opciones = new Intent(this,OpcionesActivity.class);
+                startActivity(opciones);
                 break;
         }
     }

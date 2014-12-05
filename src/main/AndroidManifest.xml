@@ -24,6 +24,22 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.tucompualdia.app.incluapp.MainActivity" />
         </activity>
+        <activity
+            android:name="com.tucompualdia.app.incluapp.ExperienciasActivity"
+            android:label="@string/title_activity_experiencias"
+            android:parentActivityName="com.tucompualdia.app.incluapp.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.tucompualdia.app.incluapp.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.tucompualdia.app.incluapp.OpcionesActivity"
+            android:label="@string/title_activity_opciones"
+            android:parentActivityName="com.tucompualdia.app.incluapp.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.tucompualdia.app.incluapp.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
